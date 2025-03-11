@@ -1,0 +1,100 @@
+body{ background-color: burlywood;
+
+}
+
+.Wrapper{
+
+    margin-top: 100px;
+    border: 0px solid yellow;
+  
+    height: fit-content;
+}
+
+.Header {
+   
+    height: 80px;
+    text-align: center;
+}
+
+.Header ul{
+    list-style: none;
+
+}
+
+.Header li {
+    display: inline;
+       
+    
+}
+
+.Header ul li a {
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid black;
+    margin: 20px;
+    color: white;
+}
+
+.Header ul li a:hover{
+    
+    background-color: black;
+    transform: scale(1.1, 1.1);
+
+}
+
+.Header:hover > .ul:not(:hover) {filter: blur(10px);transform: scale );}
+
+
+.Content {
+    border: 0px solid green;
+    height: 600px;
+    text-align: center;
+    display: flexbox;
+    flex-direction: row;
+    margin-bottom: 10px;
+   
+
+
+    
+}
+
+
+.Content h3 {
+    text-align: center;
+    
+}
+
+.Content img {
+    width: 250px;
+    height: 200px;
+    border-radius: 11px;
+    padding: 20px;
+    transition: transfrom: 0.3s ease-in-out;
+
+        
+   
+  
+   }
+
+.Content img:hover {
+    transform: scale(1.1);
+    box-shadow: 0.5px grey;
+} 
+
+.Footer {
+    text-align: center;
+    padding: 10px;
+    height: 10px;
+    margin: 200px;
+    margin-bottom: 100px;
+
+    
+    
+}
+
+#body h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
